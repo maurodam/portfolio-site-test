@@ -1,37 +1,47 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Collego il file Css-->
-    <link rel="stylesheet" href="assets/css/index.css" />
-
     <title>Portfolio</title>
+    <link rel="stylesheet" href="/assets/css/index.css" />
   </head>
   <body>
-    <!-- creo la barra di navigazione-->
-    <ul class="navbar">
-      <div class="navbar__container">
-        <a href="#home" id="navbar__logo">Portfolio</a>
-        <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+    <div class="hero__section">
+      <div class="hero__wrapper">
+        <div class="column__left">
+          <span>01 - Robert Atkinsons</span>
+          <h1>User Experience Designer</h1>
+          <p1
+            >I have years of experiance working with small and large companies
+            and I'm currentrly looking for the next opportunitu</p1
+          >
         </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="home-page">Home</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="about-page">About</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="services-page"
-              >Services</a
-            >
-          </li>
-        </ul>
+
+        <div class="column__right">
+          <img src="/images/ai-brain.svg" alt="brain" class="hero__img" />
+        </div>
       </div>
-    </ul>
+    </div>
+    <!-- About section -->
+    <div class="main__section">
+      <div class="main__container">
+        <h1>Hello, I'm Rob</h1>
+        <div class="main__content">
+          <div class="main__text"></div>
+          <h2>Im roberto</h2>
+          <p>
+            <!-- scrivendo lorem20 (lunghezza del lorem ipsum) mi genera in automatico il testo-->
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+            iste atque hic voluptas, aliquid rerum tempora? Quae recusandae
+            commodi expedita!
+          </p>
+        </div>
+        <div class="main__image">
+          <img src="./assets/images/Profile.png" alt="face" class="main__img" />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
