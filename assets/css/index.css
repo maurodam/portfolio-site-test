@@ -69,8 +69,10 @@
   }
 }
 
+/*  sezione about */
+
 .main__section {
-  padding: 60px 6px;
+  padding: 60px 60px;
   background: #002ed0;
   color: #fff;
 }
@@ -107,8 +109,7 @@
 }
 
 .main__text p {
-  display: flex;
-  justify-content: center;
+  line-height: 2.3;
 }
 
 .main__image {
@@ -120,7 +121,7 @@
   width: 420px;
   height: 610px;
 }
-
+/*
 @media screen and (max-width: 1000px) {
   .main__section {
     padding: 30px;
